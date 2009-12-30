@@ -59,7 +59,7 @@ namespace CustomDataGrid
             this.dgCustom.PreferredColumnWidth = 75;
             this.dgCustom.PreferredRowHeight = 16;
             this.dgCustom.ReadOnly = true;
-            this.dgCustom.RowHeadersVisible = false;
+            this.dgCustom.RowHeadersVisible = true;
             this.dgCustom.RowHeaderWidth = 35;
             this.dgCustom.Size = new System.Drawing.Size(500, 180);
             this.dgCustom.TabIndex = 0;
