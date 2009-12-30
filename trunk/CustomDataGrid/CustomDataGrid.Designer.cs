@@ -48,10 +48,13 @@ namespace CustomDataGrid
             this.Controls.Add(this.vSB);
             this.Name = "CustomDataGrid";
             this.Size = new System.Drawing.Size(148, 148);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.CustomDataGrid_MouseMove);
             this.Leave += new System.EventHandler(this.CustomDataGrid_Leave);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.CustomDataGrid_MouseClick);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.CustomDataGrid_MouseDown);
             this.Resize += new System.EventHandler(this.CustomDataGrid_Resize);
             this.Enter += new System.EventHandler(this.CustomDataGrid_Enter);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.CustomDataGrid_MouseUp);
             this.ResumeLayout(false);
 
         }
